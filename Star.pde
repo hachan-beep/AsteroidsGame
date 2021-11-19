@@ -1,8 +1,8 @@
 class Star{
   private int x,y;
   Star(){
-    x = (int)(Math.random()*2000);
-    y = (int)(Math.random()*1000);
+    x = (int)(Math.random()*500);
+    y = (int)(Math.random()*500);
   }
   public void show(){
     fill(255,255,0);
