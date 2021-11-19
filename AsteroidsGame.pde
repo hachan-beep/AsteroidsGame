@@ -11,7 +11,22 @@ public void setup()
 public void draw() 
 {
   gabe.show();
+  gabe.move();
   for(int i = 0; i < leung.length; i++){
     leung[i].show();
+  }
+  if(keyPressed){
+    if(key == 'w'){
+      gabe.accelerate(0.1);
+    }
+    if(key == 's'){
+      gabe.accelerate(-0.1);
+    }
+    if(key == 'a'){
+      gabe.turn(-10);
+    }
+    if(key == 'd'){
+      gabe.turn(10);
+    }
   }
 }
