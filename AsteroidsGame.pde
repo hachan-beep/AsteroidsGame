@@ -10,6 +10,7 @@ public void setup()
 }
 public void draw() 
 {
+  background(0,0,0);
   gabe.show();
   gabe.move();
   for(int i = 0; i < leung.length; i++){
