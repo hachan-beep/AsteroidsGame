@@ -29,5 +29,8 @@ public void draw()
     if(key == 'd'){
       gabe.turn(10);
     }
+    if(key == 'e'){
+      gabe.hyperspace();
+    }
   }
 }
